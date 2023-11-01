@@ -1,8 +1,13 @@
+import { ItemListCotainer } from "./components/ItemListContainer/ItemListCotainer"
+import { Navbar } from "./components/Navbar/Navbar"
+
 function App(){
   return(
     <>
     <div>
-      App
+      <Navbar />
+      <ItemListCotainer greeting= 'Bienvenido' />
+
     </div>
     </>
   )
